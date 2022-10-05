@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Payroll_JSON", "Payroll_JSON.csproj", "{8A087978-0499-4AF3-82C6-8C85B0BF774F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A087978-0499-4AF3-82C6-8C85B0BF774F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A087978-0499-4AF3-82C6-8C85B0BF774F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A087978-0499-4AF3-82C6-8C85B0BF774F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A087978-0499-4AF3-82C6-8C85B0BF774F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F994118-FE09-4311-B521-861C6636154B}
+	EndGlobalSection
+EndGlobal
