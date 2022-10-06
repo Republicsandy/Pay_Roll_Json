@@ -96,7 +96,18 @@ namespace Payroll_JSON
             var result = JsonConvert.DeserializeObject<Employee>(response.Content);
             Assert.AreEqual(result.first_name, "Dhanush");
         }
-
+        //deletes the given employee id
+        [Test]
+        public void Delete_TestMethod()
+        {
+            RestRequest request = new RestRequest("/employees/9", Method.DELETE);
+            IRestResponse response = restClient.Execute(request);
+            //check count after deletion
+            IRestResponse response1 = GetAllEmployee();
+            List<Employee> result = JsonConvert.DeserializeObject<List<Employee>>(response1.Content);
+            Assert.AreEqual(8, result.Count);
+            Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
+        }
 
     }
 }
